@@ -6,9 +6,9 @@ import com.multivendor.user_service.dto.UserResponse;
 
 public interface IUserService {
 
-    public UserResponse register(RegisterRequest registerRequest);
+    UserResponse register(RegisterRequest registerRequest);
 
-    public UserResponse login(LoginRequest loginRequest);
+    UserResponse login(LoginRequest loginRequest);
 
-    public UserResponse findUserById(Long id);
+    UserResponse findUserById(Long id);
 }

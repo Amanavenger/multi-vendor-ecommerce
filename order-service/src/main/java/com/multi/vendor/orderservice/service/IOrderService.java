@@ -7,11 +7,11 @@ import java.util.List;
 
 public interface IOrderService {
 
-    public OrderResponse createOrder(OrderRequest orderRequest);
+    OrderResponse createOrder(OrderRequest orderRequest);
 
-    public List<OrderResponse> orderByUser(Long UserId);
+    List<OrderResponse> orderByUser(Long UserId);
 
-    public OrderResponse getOrderByOrderId(Long orderId);
+    OrderResponse getOrderByOrderId(Long orderId);
 
-    public OrderResponse deleteOrderByOrderId(Long orderId);
+    OrderResponse deleteOrderByOrderId(Long orderId);
 }

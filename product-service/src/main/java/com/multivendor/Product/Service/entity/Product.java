@@ -29,9 +29,11 @@ public class Product {
     private Integer stockQuantity;
 
     private String category;
+
     private Long vendorId;
 
     private LocalDateTime createTime;
+
     private LocalDateTime updateTime;
 
 }
